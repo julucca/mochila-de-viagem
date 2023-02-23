@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
     <main class="conteudo">
         <div class="principal">
             <div class="mochila"></div>
-            <form action="" class="adicionar" id="novoItem">
+            <form action="" class="adicionar" id="novoItem" data-form>
                 <label for="item">Nome</label>
                 <input type="text" name="nome" id="nome">
                 <label for="item">Quantidade</label>
@@ -24,17 +26,19 @@
             </form>
         </div>
         
-        <ul class="lista">
+        <ul class="lista" data-list>
             <li class="item"><strong>7</strong>Camisas</li>
             <li class="item"><strong>1</strong>Calça</li>
             <li class="item"><strong>3</strong>Casaco</li>
-            <li class="item"><strong>3</strong>Meia</li>
+            <!-- <li class="item"><strong>3</strong>Meia</li>
             <li class="item"><strong>10</strong>Cuecas</li>
             <li class="item"><strong>2</strong>Tênis</li>
             <li class="item"><strong>1</strong>Celular</li>
             <li class="item"><strong>1</strong>Carregador</li>
-            <li class="item"><strong>1</strong>Adaptador de tomada</li>
+            <li class="item"><strong>1</strong>Adaptador de tomada</li> -->
         </ul>
     </main>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
