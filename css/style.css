@@ -130,3 +130,12 @@ html {
     font-weight: 400;
 }
 
+.remover {
+    background-color: #303030;
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+    padding: 0 .30rem .12rem;
+    text-align: center;
+}
+

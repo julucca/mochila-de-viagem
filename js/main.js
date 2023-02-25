@@ -64,9 +64,9 @@ function atualizaElemento(item) {
 
 function botaoDeleta(id) {
     const elementoBotao = document.createElement("button");
-    elementoBotao.innerText = "X";
+    elementoBotao.classList.add('remover');
+    elementoBotao.innerText = "x";
 
-    // cria evento para o botão
     elementoBotao.addEventListener('click', function() {
         deletaElemento(this.parentNode, id)
     }); 
